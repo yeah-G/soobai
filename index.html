@@ -43,8 +43,10 @@
                 $('.switch input').change(function() {
                     if ($(this).is(':checked')) {
                         $('.masking').text('2112439');
+                        $('.address').text('서울특별시 성동구 마조로 57 (마장동, 왕십리금호어울림아파트)');
                     } else {
                         $('.masking').text('*******');
+                        $('.address').text('서울특별시 성동구');
                     }
                 });
             });
@@ -83,7 +85,7 @@
                     <span class="slider"></span>
                 </label>
                 <p id="j_num" class="num">940914-<em class="masking">*******</em></p>
-                <p>서울특별시 성동구</p>
+                <p><em class="address">서울특별시 성동구</em></p>
                 <div class="main_bottom">
                     <time datetime="2013-01-28">2013.01.28</time>
                     <p>서울특별시 성동구청장</p>
